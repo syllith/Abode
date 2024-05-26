@@ -1,0 +1,32 @@
+{
+    "schemaVersion": 1,
+    "id": "abode",
+    "version": "${version}",
+    "name": "Abode",
+    "description": "Abode allows players to set and teleport to home locations.",
+    "authors": [
+        "Syllith"
+    ],
+    "contact": {
+        "homepage": "https://yourmodhomepage.com",
+        "sources": "https://github.com/yourgithubrepo"
+    },
+    "license": "CC0-1.0",
+    "icon": "assets/abode/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.abode.AbodeMod"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.15.0",
+        "minecraft": "~1.20.4",
+        "java": ">=17",
+        "fabric-api": "*"
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
+}
